@@ -1,0 +1,205 @@
+@font-face {
+        font-family: breakingBad;
+        src: url(/breaking_b/Breaking\ Bad.ttf);
+    }
+
+#body {
+    background-image: url(../IMG/fondo.jpg) ;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#frase {
+    font-family: 'breakingBad';
+    font-size: 1cm;
+    color: white;
+}
+
+#poster {
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+h1 {
+    font-family: Helvetica;
+}
+
+#areaBreaking {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -230px;
+    padding-right: 140px;
+    border: 22px solid rgba(12, 62, 17, 0);
+}
+
+#areaBad {
+    position: absolute;
+    margin-top: 155px;
+    margin-left: -170px;
+    padding-right: 40px;
+    border: 22px solid rgba(12, 62, 17, 0);
+}
+
+
+
+/* Aqui empiezan los estilos de formulario.html */
+
+#formulario {
+    margin: 100px auto;
+    background-color: rgba(12, 62, 17, 0.5);
+    color: #FFFFCC;
+    width: 40%;
+    font-family: Helvetica;
+}
+
+.legendTitulo {
+    font-size: 25px;
+}
+
+.legendSubTitulo {
+    font-size: 20px;
+}
+
+div {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.inputNombre {
+    margin-left: 70px;
+}
+
+.inputApellido {
+    margin-left: 63px;
+}
+
+.inputDireccion {
+    margin-left: 15px;
+}
+
+.inputCodigo {
+    margin-left: 31px;
+}
+
+.inputCiudad {
+    margin-left: 78px;
+}
+
+.inputD {
+    margin-left: 69px;
+}
+
+.inputEmail {
+    margin-left: 0px;
+}
+
+.inputPersonja {
+    margin-left: 23px;
+    padding: 0 25px;
+}
+
+textarea {
+    padding: 0 19px;
+}
+
+.inputEnviar {
+    padding: 0 50px;
+}
+
+.inputReset {
+    padding: 0 50px;
+}
+
+/* Aqui empiezan los estilos de tabla.html */
+
+.body {
+    background-color:#0c3e11;
+    text-align: center;
+}
+
+#tablaUno {
+    margin: 0 auto;
+    background-color: #34352F;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+#tablaDos {
+    margin: 10px auto;
+    background-color: #34352F;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+#celdaHs {
+    background-image: url(../IMG/TablaPeriódica/hankschrader.png) ;
+    background-size: 86px 205px;
+}
+
+#celdaT {
+    background-color: #B6DD1A;
+}
+
+#celdaTa {
+    background-color: #89A418;
+}
+
+#celdaTb {
+    background-color: #627126;
+}
+
+#celdaTc {
+    background-color: #C5E440;
+}
+
+#celdaTd {
+    background-color: #BBC49E;
+}
+
+#celdaTe {
+    background-color: #818e4d;
+}
+
+#celdaTf {
+    background-color: #d6ec6f;
+}
+
+#celdaTg {
+    background-color: #c3c626;
+}
+
+#celdaC {
+    background-color: #EEF6C6;
+}
+
+#celdaM {
+    background-color: #AB8FCC;
+}
+
+#celdaV {
+    background-color: 34352F;
+}
+
+.letra {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.letraSub {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    width: 65px;
+    height: 20px;
+    padding: 10px;
+}
